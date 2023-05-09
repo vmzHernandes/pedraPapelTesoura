@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0b1421; 
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    display: grid;
+    place-items: center;
+    color: #f9f9f9;
+    font-size: 5rem;
+}
+button {
+    cursor: pointer;
+    border-color: #DA2535;
+    background-color: #515151;
+    color: #f9f9f9;
+    height: 10vh;
+    width: 20vh;
+    border-radius: 10px;
+}
+.container {
+    max-width: 40%;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+    grid-template-columns: 10vw 10vw 10vw;
+}

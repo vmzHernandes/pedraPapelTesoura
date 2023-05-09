@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Pedra Papel Tesoura</h1>
+    <div class="container">
+        <button onclick="
+            const escolhaComputador = movimentoComputador();
+            jogar('pedra');
+        ">Pedra</button>
+        <button onclick="
+            const escolhaComputador = movimentoComputador();
+            jogar('papel');
+        ">Papel</button>
+        <button onclick="
+            const escolhaComputador = movimentoComputador();
+            jogar('tesoura');
+        ">Tesoura</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
