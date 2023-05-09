@@ -9,22 +9,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/ppt.png" />
 </head>
 <body>
-    <h1>Pedra Papel Tesoura</h1>
-    <div class="container">
-        <button onclick="
-            const escolhaComputador = movimentoComputador();
-            jogar('pedra');
-        ">Pedra</button>
-        <button onclick="
-            const escolhaComputador = movimentoComputador();
-            jogar('papel');
-        ">Papel</button>
-        <button onclick="
-            const escolhaComputador = movimentoComputador();
-            jogar('tesoura');
-        ">Tesoura</button>
+     <div class="container">
+        <div class="titulo">
+            <h1>PEDRA, PAPEL E TESOURA</h1>
+        </div>
+        <div class="botoes">
+            <div class="botaoPedra">
+                <button onclick="
+                const escolhaComputador = movimentoComputador();
+                jogar('pedra');
+                "></button>
+            </div>
+            <div class="botaoPapel">
+                <button onclick="
+                const escolhaComputador = movimentoComputador();
+                jogar('papel');
+                "
+                ></button>
+            </div>
+            <div class="botaoTesoura">
+                <button onclick="
+                const escolhaComputador = movimentoComputador();
+                jogar('tesoura');
+                "></button>
+            </div>     
+        </div>        
     </div>
     <script src="script.js"></script>
 </body>
